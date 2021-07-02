@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JayhunOmbor", "JayhunOmbor\JayhunOmbor.csproj", "{153738D3-5DFE-45A6-82C6-8819A54886D1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Santexnika_ombor", "Santexnika_ombor\Santexnika_ombor.vdproj", "{472E9D8C-23DC-4594-B2B3-CC4B6B2D2C94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472E9D8C-23DC-4594-B2B3-CC4B6B2D2C94}.Debug|Any CPU.ActiveCfg = Debug
+		{472E9D8C-23DC-4594-B2B3-CC4B6B2D2C94}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07984C00-0704-4D0B-AB31-19D955AC3947}
+	EndGlobalSection
+EndGlobal

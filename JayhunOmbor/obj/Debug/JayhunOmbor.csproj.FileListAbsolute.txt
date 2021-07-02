@@ -1,0 +1,415 @@
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csprojAssemblyReference.cache
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Pilotech\source\repos\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csprojAssemblyReference.cache
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+D:\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+D:\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.WaitForm.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmCreateRecieve.resources
+C:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveAdd.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Memory.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmCreateRecieve.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveAdd.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.WaitForm.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditRecieve.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditFaktura.resources
+C:\Users\Sardorbek\Downloads\Telegram Desktop\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csprojAssemblyReference.cache
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Memory.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csprojAssemblyReference.cache
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmCreateRecieve.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditFaktura.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditRecieve.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveAdd.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.WaitForm.resources
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+D:\Projects\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Memory.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmAddNewProduct.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmCreateRecieve.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditFaktura.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditRecieve.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveAdd.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.WaitForm.resources
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+D:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csprojAssemblyReference.cache
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe.config
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.exe
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\JayhunOmbor.pdb
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\barcodelib.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\FontAwesome.Sharp.Pro.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Design.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroFramework.Fonts.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MetroSet UI.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.Abstractions.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\RestClient.Net.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Drawing.Common.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.IO.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Buffers.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Memory.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Numerics.Vectors.dll
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\MySql.Data.xml
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmCreateRecieve.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditFaktura.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmEditRecieve.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFaktura.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaAddProduct.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmFakturaTayyorlash.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmOmborMaxsulot.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveAdd.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.frmRecieveProduct.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.Properties.Resources.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.WaitForm.resources
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.GenerateResource.cache
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CoreCompileInputs.cache
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.s.resources
