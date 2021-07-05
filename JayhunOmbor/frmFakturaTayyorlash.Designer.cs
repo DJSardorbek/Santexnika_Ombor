@@ -50,6 +50,7 @@
             this.comboFilial = new System.Windows.Forms.ComboBox();
             this.btnAdd = new FontAwesome.Sharp.IconButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnQabulUlash = new FontAwesome.Sharp.IconButton();
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.txtSearchFil = new MetroSet_UI.Controls.MetroSetTextBox();
             this.dbgridFakturaItemSave = new System.Windows.Forms.DataGridView();
@@ -57,7 +58,6 @@
             this.dbgridFakturaSave = new System.Windows.Forms.DataGridView();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.btnQabulUlash = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dbgridFaktura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -269,7 +269,6 @@
             this.btnDelete.Text = "Ўчириш";
             this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Visible = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
@@ -289,7 +288,6 @@
             this.btnEdit.Text = "Ўзгартириш";
             this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEdit.UseVisualStyleBackColor = false;
-            this.btnEdit.Visible = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // txtSearch
@@ -430,6 +428,25 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Сакланган фактура";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btnQabulUlash
+            // 
+            this.btnQabulUlash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnQabulUlash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(41)))), ((int)(((byte)(58)))));
+            this.btnQabulUlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQabulUlash.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnQabulUlash.IconChar = FontAwesome.Sharp.IconChar.PenAlt;
+            this.btnQabulUlash.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnQabulUlash.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnQabulUlash.IconSize = 30;
+            this.btnQabulUlash.Location = new System.Drawing.Point(443, 590);
+            this.btnQabulUlash.Name = "btnQabulUlash";
+            this.btnQabulUlash.Size = new System.Drawing.Size(180, 36);
+            this.btnQabulUlash.TabIndex = 20;
+            this.btnQabulUlash.Text = "Қабулга улаш";
+            this.btnQabulUlash.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnQabulUlash.UseVisualStyleBackColor = false;
+            this.btnQabulUlash.Click += new System.EventHandler(this.btnQabulUlash_Click);
             // 
             // iconButton3
             // 
@@ -581,25 +598,6 @@
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton2.UseVisualStyleBackColor = false;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
-            // 
-            // btnQabulUlash
-            // 
-            this.btnQabulUlash.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnQabulUlash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(41)))), ((int)(((byte)(58)))));
-            this.btnQabulUlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQabulUlash.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnQabulUlash.IconChar = FontAwesome.Sharp.IconChar.PenAlt;
-            this.btnQabulUlash.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnQabulUlash.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnQabulUlash.IconSize = 30;
-            this.btnQabulUlash.Location = new System.Drawing.Point(443, 590);
-            this.btnQabulUlash.Name = "btnQabulUlash";
-            this.btnQabulUlash.Size = new System.Drawing.Size(180, 36);
-            this.btnQabulUlash.TabIndex = 20;
-            this.btnQabulUlash.Text = "Қабулга улаш";
-            this.btnQabulUlash.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnQabulUlash.UseVisualStyleBackColor = false;
-            this.btnQabulUlash.Click += new System.EventHandler(this.btnQabulUlash_Click);
             // 
             // frmFakturaTayyorlash
             // 

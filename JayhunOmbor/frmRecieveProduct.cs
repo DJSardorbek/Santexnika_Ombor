@@ -33,7 +33,7 @@ namespace JayhunOmbor
         {
             HttpClient apiCallClient = new HttpClient();
 
-            string authToken = "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3";
+            string authToken = "token 62115f83e1c1e8b588fa419330976ea6012d1cd4";
             HttpRequestMessage apirequest = new HttpRequestMessage(HttpMethod.Get, restCallURL);
             apirequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             apirequest.Headers.Add("Authorization", authToken);
@@ -48,7 +48,7 @@ namespace JayhunOmbor
             var response = string.Empty;
             using (var client = new HttpClient())
             {
-                client.DefaultRequestHeaders.Add("Authorization", "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3");
+                client.DefaultRequestHeaders.Add("Authorization", "token 62115f83e1c1e8b588fa419330976ea6012d1cd4");
                 try
                 {
                     HttpResponseMessage result = await client.PostAsync(u, c);
@@ -379,7 +379,7 @@ namespace JayhunOmbor
         {
             HttpClient apiCallClient = new HttpClient();
             String restCallURL = "http://santexnika.backoffice.uz/api/product/";
-            string authToken = "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3";
+            string authToken = "token 62115f83e1c1e8b588fa419330976ea6012d1cd4";
             HttpRequestMessage apirequest = new HttpRequestMessage(HttpMethod.Get, restCallURL);
             apirequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             apirequest.Headers.Add("Authorization", authToken);
@@ -700,7 +700,7 @@ namespace JayhunOmbor
                 using (var client = new HttpClient())
                 {
                     client.BaseAddress = new Uri("http://santexnika.backoffice.uz/");
-                    client.DefaultRequestHeaders.Add("Authorization", "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3");
+                    client.DefaultRequestHeaders.Add("Authorization", "token 62115f83e1c1e8b588fa419330976ea6012d1cd4");
                     string url = "api/recieve/" + recieve_id + "/";
                     var response = client.DeleteAsync(url).Result;
                     if (response.IsSuccessStatusCode)
@@ -800,9 +800,9 @@ namespace JayhunOmbor
                     txtSummaDollar.DisplayMember = "dollar";
 
                 }
-                catch(Exception)
+                catch(Exception ex)
                 {
-                    MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     lblStatus.Visible = false;
                     lblQayta.Visible = true;
                     edit = true;

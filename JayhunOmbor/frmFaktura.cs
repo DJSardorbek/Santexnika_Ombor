@@ -474,7 +474,7 @@ namespace JayhunOmbor
         {
             HttpClient apiCallClient = new HttpClient();
 
-            string authToken = "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3";
+            string authToken = "token 62115f83e1c1e8b588fa419330976ea6012d1cd4";
             HttpRequestMessage apirequest = new HttpRequestMessage(HttpMethod.Get, restCallURL);
             apirequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             apirequest.Headers.Add("Authorization", authToken);

@@ -136,7 +136,7 @@ namespace JayhunOmbor
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     lblQayta.Visible = true;
                     lblStatus.Visible = false;
                 }
@@ -333,7 +333,7 @@ namespace JayhunOmbor
         public static async Task<string> GetObject(string restCallURL)
         {
             HttpClient apiCallClient = new HttpClient();
-            string authToken = "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3";
+            string authToken = "token 62115f83e1c1e8b588fa419330976ea6012d1cd4";
             HttpRequestMessage apirequest = new HttpRequestMessage(HttpMethod.Get, restCallURL);
             apirequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             apirequest.Headers.Add("Authorization", authToken);
@@ -348,7 +348,7 @@ namespace JayhunOmbor
             var response = string.Empty;
             using (var client = new HttpClient())
             {
-                client.DefaultRequestHeaders.Add("Authorization", "token 28aeccd6cbbb18b16fddf2967d0b35242ad6a0a3");
+                client.DefaultRequestHeaders.Add("Authorization", "token 62115f83e1c1e8b588fa419330976ea6012d1cd4");
                 try
                 {
                     HttpResponseMessage result = await client.PostAsync(u, c);
@@ -518,9 +518,9 @@ namespace JayhunOmbor
                             dbgridFakturaItemSave.Columns[0].Visible = false;
                             dbgridFakturaItemSave.Columns.Cast<DataGridViewColumn>().ToList().ForEach(f => f.SortMode = DataGridViewColumnSortMode.NotSortable);
                         }
-                        catch (Exception)
+                        catch (Exception ex)
                         {
-                            MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             cell = false;
                             return;
                         }
@@ -563,9 +563,9 @@ namespace JayhunOmbor
                             dbgridFakturaItemSave.Columns[0].Visible = false;
                             dbgridFakturaItemSave.Columns.Cast<DataGridViewColumn>().ToList().ForEach(f => f.SortMode = DataGridViewColumnSortMode.NotSortable);
                         }
-                        catch (Exception)
+                        catch (Exception ex)
                         {
-                            MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             cell = false;
                             return;
                         }
@@ -681,7 +681,17 @@ namespace JayhunOmbor
 
         private void lblQayta_Click(object sender, EventArgs e)
         {
-            if(fakturaShow)
+            if (edit)
+            {
+                try
+                {
+                    EditFaktura(tbFaktura.Rows[managerFaktura.Position]["id"].ToString(),
+                        tbFaktura.Rows[managerFaktura.Position]["product"].ToString());
+                    edit = false;
+                }
+                catch (Exception) { }
+            }
+            if (fakturaShow)
             {
                 FakturaShow(faktura_id);
             }
@@ -1289,22 +1299,180 @@ namespace JayhunOmbor
 
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private async void btnDelete_Click(object sender, EventArgs e)
         {
+            if (faktura_id != "" && dbgridFaktura.Rows.Count > 0)
+            {
 
+                try
+                {
+                    Uri u = new Uri("http://santexnika.backoffice.uz/api/fakturaitem/delete/");
+                    var payload = "{\"item\": \"" + tbFaktura.Rows[managerFaktura.Position]["id"].ToString() + "\"}";
+                    HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
+                    var t = Task.Run(() => PostURI(u, content));
+                    t.Wait();
+                    if (t.Result != "Error!" && t.Result.Length != 0)
+                    {
+
+                        DataTable t1 = new DataTable();
+                        t1.Columns.Add("id");
+                        dbgridFaktura.DataSource = t1;
+
+                        DataRow rowItem = tbFaktura.Select("id='" + tbFaktura.Rows[managerFaktura.Position]["id"] + "'", "id ASC").Last();
+                        rowItem.Delete();
+                        tbFaktura.AcceptChanges();
+                        dbgridFaktura.DataSource = tbFaktura;
+                        dbgridFaktura.Columns[0].Visible = false;
+                        dbgridFaktura.Columns[7].Visible = false;
+                        dbgridFaktura.Columns[8].Visible = false;
+                        try
+                        {
+                            lblStatus.Visible = true;
+                            if (faktura_id != "") { try { tbFakturaSumma.Clear(); } catch (Exception) { } }
+                            else
+                            {
+                                tbFakturaSumma = new DataTable();
+                                tbFakturaSumma.Columns.Add("id");
+                                tbFakturaSumma.Columns.Add("date");
+                                tbFakturaSumma.Columns.Add("som");
+                                tbFakturaSumma.Columns.Add("dollar");
+                                tbFakturaSumma.Columns.Add("status");
+                                tbFakturaSumma.Columns.Add("difference");
+                                tbFakturaSumma.Columns.Add("filial");
+                            }
+                            string url1 = "http://santexnika.backoffice.uz/api/faktura/" + faktura_id + "/";
+                            string SummaContent = await GetObject(url1);
+                            lblStatus.Visible = false;
+                            JObject arrayfakturaSumma = JObject.Parse(SummaContent);
+                            if (arrayfakturaSumma != null)
+                            {
+                                DataRow rowFakturaSumma = tbFakturaSumma.NewRow();
+                                rowFakturaSumma["id"] = arrayfakturaSumma["id"];
+                                rowFakturaSumma["date"] = arrayfakturaSumma["date"];
+                                rowFakturaSumma["som"] = arrayfakturaSumma["som"];
+                                rowFakturaSumma["dollar"] = arrayfakturaSumma["dollar"];
+                                rowFakturaSumma["status"] = arrayfakturaSumma["status"];
+                                rowFakturaSumma["difference"] = arrayfakturaSumma["difference"];
+                                rowFakturaSumma["filial"] = arrayfakturaSumma["filial"];
+                                tbFakturaSumma.Rows.Add(rowFakturaSumma);
+                            }
+                            txtSom.DataSource = tbFakturaSumma;
+                            txtSom.DisplayMember = "som";
+
+                            txtDollar.DataSource = tbFakturaSumma;
+                            txtDollar.DisplayMember = "dollar";
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            lblQayta.Visible = true;
+                            lblStatus.Visible = false;
+                            edit = true;
+
+                        }
+                        MessageBox.Show("Махсулот муваффакиятли ўчирилди!!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
 
-        public static string edit_price = "", edit_quantity = "";
+        public async void EditFaktura(string fakturaItem_id, string product_id)
+        {
+            if (edit)
+            {
+                DataTable t = new DataTable();
+                t.Columns.Add("id");
+                dbgridFaktura.DataSource = t;
+                DataRow row = tbFaktura.Select("id='" + fakturaItem_id + "'", "id ASC").Last();
+                row["Сум"] = edit_som;
+                row["Доллар"] = edit_dollar;
+                row["Микдори"] = edit_quantity;
+
+                row.EndEdit();
+                tbFaktura.AcceptChanges();
+                dbgridFaktura.DataSource = tbFaktura;
+                dbgridFaktura.Columns[0].Visible = false;
+                dbgridFaktura.Columns[7].Visible = false;
+                dbgridFaktura.Columns[8].Visible = false;
+
+                try
+                {
+                    lblStatus.Visible = true;
+                    if (faktura_id != "") { try { tbFakturaSumma.Clear(); } catch (Exception) { } }
+                    else
+                    {
+                        tbFakturaSumma = new DataTable();
+                        tbFakturaSumma.Columns.Add("id");
+                        tbFakturaSumma.Columns.Add("date");
+                        tbFakturaSumma.Columns.Add("som");
+                        tbFakturaSumma.Columns.Add("dollar");
+                        tbFakturaSumma.Columns.Add("status");
+                        tbFakturaSumma.Columns.Add("difference");
+                        tbFakturaSumma.Columns.Add("filial");
+                    }
+                    string url1 = "http://santexnika.backoffice.uz/api/faktura/" + faktura_id + "/";
+                    string SummaContent = await GetObject(url1);
+                    lblStatus.Visible = false;
+                    JObject arrayfakturaSumma = JObject.Parse(SummaContent);
+                    if (arrayfakturaSumma != null)
+                    {
+                        DataRow rowFakturaSumma = tbFakturaSumma.NewRow();
+                        rowFakturaSumma["id"] = arrayfakturaSumma["id"];
+                        rowFakturaSumma["date"] = arrayfakturaSumma["date"];
+                        rowFakturaSumma["som"] = arrayfakturaSumma["som"];
+                        rowFakturaSumma["dollar"] = arrayfakturaSumma["dollar"];
+                        rowFakturaSumma["status"] = arrayfakturaSumma["status"];
+                        rowFakturaSumma["difference"] = arrayfakturaSumma["difference"];
+                        rowFakturaSumma["filial"] = arrayfakturaSumma["filial"];
+                        tbFakturaSumma.Rows.Add(rowFakturaSumma);
+                    }
+                    txtSom.DataSource = tbFakturaSumma;
+                    txtSom.DisplayMember = "som";
+
+                    txtDollar.DataSource = tbFakturaSumma;
+                    txtDollar.DisplayMember = "dollar";
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    lblQayta.Visible = true;
+                    lblStatus.Visible = false;
+                    edit = true;
+
+                }
+            }
+        }
+
+        public static string edit_som = "", edit_dollar="", edit_quantity = "";
         public static bool edit = false;
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            edit = false;
             frmEditFaktura editFaktura = new frmEditFaktura();
             editFaktura.fakturaItem_id = tbFaktura.Rows[managerFaktura.Position]["id"].ToString();
             editFaktura.faktura_id = faktura_id;
             editFaktura.name = tbFaktura.Rows[managerFaktura.Position]["Махсулот"].ToString();
-            editFaktura.price = tbFaktura.Rows[managerFaktura.Position]["Нархи"].ToString();
+            editFaktura.som = tbFaktura.Rows[managerFaktura.Position]["Сум"].ToString();
+            editFaktura.dollar = tbFaktura.Rows[managerFaktura.Position]["Доллар"].ToString();
             editFaktura.quantity = tbFaktura.Rows[managerFaktura.Position]["Микдори"].ToString();
+            if(editFaktura.ShowDialog() == DialogResult.OK)
+            {
+                EditFaktura(tbFaktura.Rows[managerFaktura.Position]["id"].ToString(),
+                    tbFaktura.Rows[managerFaktura.Position]["product"].ToString());
+
+            }
+
 
         }
 
@@ -1336,17 +1504,7 @@ namespace JayhunOmbor
             }
         }
 
-        public void EditFaktura(string fakturaItem_id, string product_id)
-        {
-            try
-            {
-
-            }
-            catch(Exception)
-            {
-
-            }
-        }
+        
 
         public static bool f5 = true;
         public static bool create = false;
@@ -1401,7 +1559,7 @@ namespace JayhunOmbor
 
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 create = false;
             }
@@ -1516,9 +1674,9 @@ namespace JayhunOmbor
                         dbgridFaktura.Columns.Cast<DataGridViewColumn>().ToList().ForEach(f => f.SortMode = DataGridViewColumnSortMode.NotSortable);
                         tbFaktura.Dispose();
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
-                        MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         fakturaShow = true;
                         lblQayta.Visible = true;
                         lblStatus.Visible = false;
@@ -1562,7 +1720,7 @@ namespace JayhunOmbor
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     fakturaShow = true;
                     lblQayta.Visible = true;
                     lblStatus.Visible = false;
@@ -1571,9 +1729,9 @@ namespace JayhunOmbor
                 btnCreate.Enabled = false;
                 comboFilial.Enabled = false;
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 fakturaShow = true;
                 lblQayta.Visible = true;
                 lblStatus.Visible = false;
