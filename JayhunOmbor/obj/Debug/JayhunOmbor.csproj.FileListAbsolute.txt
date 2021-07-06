@@ -475,3 +475,4 @@ C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.CopyComplete
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
+E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.AssemblyReference.cache

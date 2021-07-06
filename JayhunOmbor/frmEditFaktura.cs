@@ -108,7 +108,7 @@ namespace JayhunOmbor
             try
             {
                 Uri u = new Uri("http://santexnika.backoffice.uz/api/fakturaitem/up/");
-                var payload = "{\"faktura\": \""+faktura_id+"\",\"item\": \"" + fakturaItem_id + "\",\"som\": \"" + som + "\",\"dollar\": \""+dollar+"\",\"quantity\": \"" + quantity + "\"}";
+                var payload = "{\"item\": \"" + fakturaItem_id + "\",\"som\": \"" + som + "\",\"dollar\": \""+dollar+"\",\"quantity\": \"" + quantity + "\"}";
                 HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
                 var t = Task.Run(() => PostURI(u, content));
                 t.Wait();
