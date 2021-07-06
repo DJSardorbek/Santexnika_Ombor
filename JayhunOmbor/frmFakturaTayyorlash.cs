@@ -1298,7 +1298,7 @@ namespace JayhunOmbor
         {
 
         }
-
+        public string quan_faktura = "", quan_product = "", product = "";
         private async void btnDelete_Click(object sender, EventArgs e)
         {
             if (faktura_id != "" && dbgridFaktura.Rows.Count > 0)
@@ -1319,12 +1319,30 @@ namespace JayhunOmbor
                         dbgridFaktura.DataSource = t1;
 
                         DataRow rowItem = tbFaktura.Select("id='" + tbFaktura.Rows[managerFaktura.Position]["id"] + "'", "id ASC").Last();
+                        product = rowItem["product"].ToString();
+                        quan_faktura = rowItem["Микдори"].ToString();//
+                        quan_faktura = DoubleToStr(quan_faktura);
+
                         rowItem.Delete();
                         tbFaktura.AcceptChanges();
                         dbgridFaktura.DataSource = tbFaktura;
                         dbgridFaktura.Columns[0].Visible = false;
                         dbgridFaktura.Columns[7].Visible = false;
                         dbgridFaktura.Columns[8].Visible = false;
+
+                        DataRow row_product = Form1.tbProduct.Select("Махсулот_ид='" + product + "'", "Махсулот_ид ASC").Last();
+                        quan_product = row_product["Микдори"].ToString();//
+                        quan_product = DoubleToStr(quan_product);
+
+                        double Dquan_faktura = double.Parse(quan_faktura);
+                        double Dquan_product = double.Parse(quan_product);
+                        double result_quan = Dquan_faktura + Dquan_product;
+                        string str_rsquan = result_quan.ToString();
+                        str_rsquan = DoubleToStr(str_rsquan);
+                        row_product["Микдори"] = str_rsquan;
+                        row_product.EndEdit();
+                        Form1.tbProduct.AcceptChanges();
+
                         try
                         {
                             lblStatus.Visible = true;
@@ -1374,7 +1392,7 @@ namespace JayhunOmbor
                     }
                     else
                     {
-                        MessageBox.Show("Интэрнэт билан богланишни тэкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Интeрнeт билан богланишни тeкширинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
@@ -1394,6 +1412,9 @@ namespace JayhunOmbor
                 t.Columns.Add("id");
                 dbgridFaktura.DataSource = t;
                 DataRow row = tbFaktura.Select("id='" + fakturaItem_id + "'", "id ASC").Last();
+                string pr_id = row["product"].ToString();
+                string quan_old_faktura = row["Микдори"].ToString();//
+                quan_old_faktura = DoubleToStr(quan_old_faktura);
                 row["Сум"] = edit_som;
                 row["Доллар"] = edit_dollar;
                 row["Микдори"] = edit_quantity;
@@ -1404,6 +1425,23 @@ namespace JayhunOmbor
                 dbgridFaktura.Columns[0].Visible = false;
                 dbgridFaktura.Columns[7].Visible = false;
                 dbgridFaktura.Columns[8].Visible = false;
+
+                DataRow row_product = Form1.tbProduct.Select("Махсулот_ид='" + pr_id + "'", "Махсулот_ид ASC").Last();
+                quan_product = row_product["Микдори"].ToString();//
+                quan_product = DoubleToStr(quan_product);
+                quan_faktura = edit_quantity;
+                quan_faktura = DoubleToStr(quan_faktura);
+
+                double Dquan_faktura = double.Parse(quan_faktura);
+                double Dquan_old_faktura = double.Parse(quan_old_faktura, CultureInfo.InvariantCulture);
+                Dquan_faktura = Dquan_old_faktura - Dquan_faktura;
+                double Dquan_product = double.Parse(quan_product);
+                double result_quan = Dquan_faktura + Dquan_product;
+                string str_rsquan = result_quan.ToString();
+                str_rsquan = DoubleToStr(str_rsquan);
+                row_product["Микдори"] = str_rsquan;
+                row_product.EndEdit();
+                Form1.tbProduct.AcceptChanges();
 
                 try
                 {

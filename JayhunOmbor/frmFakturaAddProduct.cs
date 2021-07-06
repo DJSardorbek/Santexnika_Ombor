@@ -136,13 +136,8 @@ namespace JayhunOmbor
                 MessageBox.Show("Микдорни киритинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (txtQuantity.Text.IndexOf(',') > -1)
-            {
-                MessageBox.Show("Нукта билан киритинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
             string quanOm = DoubleToStr(txtOmborQuan.Text);
-            if(double.Parse(quanOm, CultureInfo.InvariantCulture) < double.Parse(txtQuantity.Text,CultureInfo.InvariantCulture))
+            if(double.Parse(quanOm, CultureInfo.InvariantCulture) < double.Parse(DoubleToStr(txtQuantity.Text),CultureInfo.InvariantCulture))
             {
                 MessageBox.Show("Жўнатиш микдори кўп киритилди!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -159,6 +154,7 @@ namespace JayhunOmbor
                 {
                     price_dollar = txtSoldPrice.Text;
                     tan_dollar = txtDollar.Text;
+                    tan_dollar = DoubleToStr(tan_dollar);
                     tan_som = "0";
                     price_som = "0";
                 }
@@ -168,15 +164,18 @@ namespace JayhunOmbor
                     tan_dollar = "0";
                     price_som = txtSoldPrice.Text;
                     tan_som = txtSom.Text;
+                    tan_som = DoubleToStr(tan_som);
                 }
                 quantity = txtQuantity.Text;
+                quantity = DoubleToStr(txtQuantity.Text);
+
                 barcode = frmFakturaTayyorlash.tbPr.Rows[frmFakturaTayyorlash.managerPr.Position]["Штрих_код"].ToString();
                 Pname = frmFakturaTayyorlash.tbPr.Rows[frmFakturaTayyorlash.managerPr.Position]["Махсулот_Номи"].ToString();
                 guruh = frmFakturaTayyorlash.tbPr.Rows[frmFakturaTayyorlash.managerPr.Position]["Гурух"].ToString();
                 
                 Uri u = new Uri("http://santexnika.backoffice.uz/api/fakturaitem/add/");
                 var payload = "{\"name\": \"" + Pname + "\",\"faktura\": \"" + frmFakturaTayyorlash.faktura_id + "\",\"product\": \"" + product + "\",\"som\": \"" + price_som + "\",\"dollar\": \""+price_dollar+ "\",\"group\": \"" + guruh + "\",\"barcode\": \"" + barcode + "\",\"quantity\": \"" + quantity + "\",\"body_som\": \""+tan_som+"\",\"body_dollar\": \""+tan_dollar+"\"}";
-
+                MessageBox.Show(payload);
                 HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
                 var t = Task.Run(() => PostURI(u, content));
                 t.Wait();
