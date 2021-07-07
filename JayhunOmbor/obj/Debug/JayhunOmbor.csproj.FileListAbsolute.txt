@@ -438,24 +438,19 @@ C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Security.Cryptography.Primitives.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Security.Cryptography.X509Certificates.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
-C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\Google.Protobuf.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\Zstandard.Net.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
-C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\Ubiety.Dns.Core.dll
-C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\Renci.SshNet.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Buffers.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Memory.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\MySql.Data.xml
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\bin\Debug\System.Net.Http.Primitives.xml
-C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.AssemblyReference.cache
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.exe.config
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.Form1.resources
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.s.resources
@@ -476,3 +471,4 @@ C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.exe
 C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.pdb
 E:\Projects\Santexnika\JayhunOmbor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.AssemblyReference.cache
+C:\Users\Oysha Algorithm\Documents\C# Projects\Santexnika_Ombor\Santexnika_Ombor\JayhunOmbor\obj\Debug\JayhunOmbor.csproj.AssemblyReference.cache

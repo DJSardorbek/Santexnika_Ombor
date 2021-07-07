@@ -114,7 +114,6 @@ namespace JayhunOmbor
                 t.Wait();
                 if (t.Result != "Error!" && t.Result.Length != 0)
                 {
-                    MessageBox.Show(t.Result.ToString());
                     MessageBox.Show("Махсулот муваффакиятли ўзгартирилди!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     frmFakturaTayyorlash.edit_som = som;
                     frmFakturaTayyorlash.edit_dollar = dollar;
