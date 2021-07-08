@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JayhunOmbor", "JayhunOmbor\JayhunOmbor.csproj", "{153738D3-5DFE-45A6-82C6-8819A54886D1}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Santexnika_Ombor", "Santexnika_Ombor\Santexnika_Ombor.vdproj", "{5BBD2054-4FA1-485E-B4FA-07241FEA2068}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Santexnika_Ombor", "Santexnika_Ombor\Santexnika_Ombor.vdproj", "{139B9C0D-A030-4B6D-83DE-D4C089E1AC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{153738D3-5DFE-45A6-82C6-8819A54886D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BBD2054-4FA1-485E-B4FA-07241FEA2068}.Debug|Any CPU.ActiveCfg = Debug
-		{5BBD2054-4FA1-485E-B4FA-07241FEA2068}.Release|Any CPU.ActiveCfg = Release
+		{139B9C0D-A030-4B6D-83DE-D4C089E1AC15}.Debug|Any CPU.ActiveCfg = Debug
+		{139B9C0D-A030-4B6D-83DE-D4C089E1AC15}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

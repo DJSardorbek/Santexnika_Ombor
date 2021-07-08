@@ -175,7 +175,6 @@ namespace JayhunOmbor
                 
                 Uri u = new Uri("http://santexnika.backoffice.uz/api/fakturaitem/add/");
                 var payload = "{\"name\": \"" + Pname + "\",\"faktura\": \"" + frmFakturaTayyorlash.faktura_id + "\",\"product\": \"" + product + "\",\"som\": \"" + price_som + "\",\"dollar\": \""+price_dollar+ "\",\"group\": \"" + guruh + "\",\"barcode\": \"" + barcode + "\",\"quantity\": \"" + quantity + "\",\"body_som\": \""+tan_som+"\",\"body_dollar\": \""+tan_dollar+"\"}";
-                MessageBox.Show(payload);
                 HttpContent content = new StringContent(payload, Encoding.UTF8, "application/json");
                 var t = Task.Run(() => PostURI(u, content));
                 t.Wait();
