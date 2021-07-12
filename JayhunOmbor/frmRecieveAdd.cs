@@ -79,6 +79,18 @@ namespace JayhunOmbor
             }
         }
 
+        public string DoubleToStr(string s)
+        {
+            if(s.IndexOf(',') > -1)
+            {
+                int index = s.IndexOf(',');
+                string first = s.Substring(0, index);
+                string last = s.Substring(index + 1);
+                s = first + "." + last;
+            }
+            return s;
+        }
+
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();
@@ -96,7 +108,9 @@ namespace JayhunOmbor
             {
                 string som = "0", dollar = "0", kurs = "0";
                 string product = product_id;
+                
                 string quantity = txtQuantity.Text;
+                quantity = DoubleToStr(quantity);
                 if (txtSom.Text != "0" || txtSom.Text != "") { som = txtSom.Text; }
                 if (txtDollar.Text != "0" || txtDollar.Text != "") { dollar = txtDollar.Text; }
                 if (txtKurs.Text != "0" || txtKurs.Text != "") { kurs = txtKurs.Text; }
@@ -140,6 +154,9 @@ namespace JayhunOmbor
                             txtSom.Text = "0";
                             txtDollar.Text = "0";
                             txtKurs.Text = "0";
+
+                            Form1.faktura = false;
+                            Form1.filial = false;
                         }
                         else
                         {

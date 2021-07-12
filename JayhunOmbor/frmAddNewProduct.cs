@@ -92,6 +92,19 @@ namespace JayhunOmbor
 
         WaitForm waitForm = new WaitForm();
 
+        public string DoubleToStr(string s)
+        {
+            if(s.IndexOf(',') > -1)
+            {
+                int index = s.IndexOf(',');
+                string first = s.Substring(0, index);
+                string last = s.Substring(index + 1);
+                s = first + "." + last;
+            }
+            return s;
+        }
+
+
         private async void iconButton1_Click(object sender, EventArgs e)
         {
             waitForm.Show(this);
@@ -104,8 +117,7 @@ namespace JayhunOmbor
                 }
                 if(txtQuantity.Text.IndexOf(',') > -1)
                 {
-                    MessageBox.Show("Микдорни нукта билан киритинг!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    txtQuantity.Text = DoubleToStr(txtQuantity.Text);
                 }
                 string som = "0", dollar = "0", kurs = "0";
                 string name = txtName.Text;
@@ -166,6 +178,8 @@ namespace JayhunOmbor
                                     {
                                         MessageBox.Show("Янги товар муваффакиятли кўшилди!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                         waitForm.Close();
+                                        Form1.faktura = false;
+                                        Form1.filial = false;
                                     }
                                     else
                                     {

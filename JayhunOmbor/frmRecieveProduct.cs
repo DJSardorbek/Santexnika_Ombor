@@ -260,9 +260,9 @@ namespace JayhunOmbor
             added = false;
             newProduct.last_barcode = last_barcode;
             newProduct.faktura_id = faktura_id;
-            if(newProduct.ShowDialog() == DialogResult.OK)
+            if (newProduct.ShowDialog() == DialogResult.OK)
             {
-                if(added)
+                if (added)
                 {
                     try
                     {
@@ -275,6 +275,7 @@ namespace JayhunOmbor
                     }
                 }
             }
+            
             
         }
         
